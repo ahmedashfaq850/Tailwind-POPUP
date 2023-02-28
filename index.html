@@ -12,31 +12,34 @@
   <div class=" h-screen  flex justify-center items-center bg-white " >
         
       <!-- popup  -->
-      <div class=" bg-[#080229] mx-2  max-h-full flex-col md:flex-row flex w-[400px]">
+      <div class=" bg-[#080229] relative p-3.5 md:p-0 mx-2 rounded-md  max-h-full flex-col md:flex-row flex w-[420px]">
           
+        <div class="absolute right-0 md:right-0 top-0  p-1 md:p-2">
+          <img  width="13" height="50" src="./images/Vector.svg" alt="">
+        </div>
         <!-- left side -->
-        <div class="  md:max-h-full xs:h-[200px]  md:w-6/4  w-full bg-[#080229] " >
-            <img width="100%" class="object-contain h-full border-1 border-[#080229] max-w-full md:hidden" src="./images/DISCOUNT.svg" alt="">
-            <img width="100%" class="object-contain h-full border-1 border-[#080229] max-w-full hidden md:block" src="./images/IMAGE.png" alt="">
+        <div class=" rounded-md md:max-h-full xs:h-[200px]  md:w-6/4  w-full bg-[#080229] " >
+            <img width="100%" class="rounded-2xl md:rounded-md object-contain h-full border-1 border-[#080229] max-w-full md:hidden" src="./images/DISCOUNT.svg" alt="">
+            <img width="100%" class=" rounded-2xl md:rounded-md object-contain h-full border-1 border-[#080229] max-w-full hidden md:block" src="./images/IMAGE.png" alt="">
 
         </div>
 
         <!-- right side -->
-        <div class="bg-[#080229] max-h-full flex flex-col p-5 gap-5  w-full ">
+        <div class="bg-[#080229] rounded-md max-h-full flex flex-col p-5 gap-5  w-full ">
             <div class="logo-section flex gap-3 flex-col justify-center items-center">
               <img width="60" height="60" src="./images/logo.svg" alt="">
               <img width="70" height="70" src="./images/text.svg" alt="">
             </div>
             <!-- rest text -->
             <div class='text-center flex flex-col gap-2 text-white'>
-              <h3>Upload ads using a premium plan</h3>
+              <h3 class="pb-2">Upload ads using a premium plan</h3>
               <h3>Get 25% Discount</h3>
               <h3>-OR-</h3>
               <h3>Get 25 Additional days</h3>
             </div>
             <!-- button -->
-            <div class="text-center font-['Inter']">
-            <button class="text-black px-4 bg-white rounded drop-shadow-lg max-h-fit max-w-fit">Get Started Now</button>
+            <div class="text-center font-['Inter'] pt-8">
+            <button class="text-[#080229] font-extrabold px-4 bg-white rounded drop-shadow-2xl max-h-fit max-w-fit">Get Started Now</button>
               </div>
           </div>
 
